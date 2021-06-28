@@ -68,11 +68,11 @@
             var probability = data[1][1]
             var result = ""
             if(risk == 1){
-                result =  "You are at risk 💀💀💀"
+                result =  " You are at risk."
             } else{
-                result =  "You are safe ❤❤❤"
+                result =  " You are safe. "
             }
-            $('.risk').html('Heart Risk: '+ risk + " \tResult " + result);
+            $('.risk').html("Result " + result + " [" + risk + "]");
             $('.prediction').html('Prediction: '+Math.floor(prediction*100 ).toFixed(0)+'%');
             $('.probability').html('Probability: '+Math.floor(probability*100 ).toFixed(0)+'%');
         }
