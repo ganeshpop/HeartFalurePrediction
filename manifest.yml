@@ -6,6 +6,7 @@ applications:
   instances: 1
   memory: 256M
   env:
-    API_KEY: rv2RVTh-8IdtaM8_1bOqQ0Wo5Zlj8T8nuNqiP8ieJ8wU
+    API_KEY: 2gLVXBfRnbMUunVk_U71lzy552cfd9GBQKhUVtNkR2Sq
     DEPLOYMENT_URL: https://eu-gb.ml.cloud.ibm.com/ml/v4/deployments/09d595ad-4056-43fa-9352-090765319ca3/predictions?version=2021-06-29
+    
     
